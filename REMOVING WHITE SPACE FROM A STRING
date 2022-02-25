@@ -1,0 +1,12 @@
+package Removingwhitespacefromastring;
+
+public class REMOVINGWHITESPACEFROMASTRING {
+
+  public static void main(String[] args) {
+       String str = "I am now removing white spaces";
+       str = str.replaceAll("\\s", "");
+       
+       System.out.print(str);
+  }
+
+}
